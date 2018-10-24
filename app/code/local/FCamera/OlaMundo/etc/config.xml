@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<config>
+
+    <global>
+        <modules>
+            <fcamara_olamundo>
+                <version>1.0.0</version>
+            </fcamara_olamundo>
+        </modules>
+    </global>
+
+    <frontend>
+        <routers>
+            <fcamara_olamundo>
+                <use>standard</use>
+                <args>
+                    <module>FCamara_OlaMundo</module>
+                    <frontName>olamundo</frontName>
+                </args>
+            </fcamara_olamundo>
+        </routers>
+    </frontend>
+</config>

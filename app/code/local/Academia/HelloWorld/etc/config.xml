@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<config>
+
+    <global>
+        <modules>
+            <academia_helloWorld>
+                <version> 1.0.0 </version>
+            </academia_helloWorld>
+        </modules>
+    </global>
+
+    <frontend>
+        <routers>
+            <HelloworldAcademia>
+                <use>standard</use>
+                <args>
+                    <module>Academia_HelloWorld</module>
+                    <frontName>helloworldacademia</frontName>
+                </args>
+            </HelloworldAcademia>
+        </routers>
+    </frontend>
+
+</config>
