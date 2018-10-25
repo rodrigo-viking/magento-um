@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<config>
+
+    <global>
+        <modules>
+            <Academia_Aula03Exercicio01>
+                <version> 1.0.0 </version>
+            </Academia_Aula03Exercicio01>
+        </modules>
+
+        <blocks>
+            <Academia_Aula03Exercicio01>
+                <class>Academia_Aula03Exercicio01_Block</class>
+            </Academia_Aula03Exercicio01>
+        </blocks>
+    </global>
+
+    <frontend>
+        <routers>
+            <Aula03Exercicio01Academia>
+                <use>standard</use>
+                <args>
+                    <module>Academia_Aula03Exercicio01</module>
+                    <frontName>helloviking</frontName>
+                </args>
+            </Aula03Exercicio01Academia>
+        </routers>
+    </frontend>
+
+</config>

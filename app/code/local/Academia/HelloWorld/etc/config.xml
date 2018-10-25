@@ -3,10 +3,16 @@
 
     <global>
         <modules>
-            <academia_helloWorld>
+            <Academia_HelloWorld>
                 <version> 1.0.0 </version>
-            </academia_helloWorld>
+            </Academia_HelloWorld>
         </modules>
+
+        <blocks>
+            <Academia_HelloWorld>
+                <class>Academia_HelloWorld_Block</class>
+            </Academia_HelloWorld>
+        </blocks>
     </global>
 
     <frontend>
