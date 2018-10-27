@@ -73,7 +73,7 @@
 
                 <?php if ($_product->getShortDescription()):?>
                     <div class="short-description">
-                        <div class="std"><?php echo $_helper->productAttribute($_product, nl2br($_product->getShortDescription()), 'short_description') ?></div>
+                        <div class="std" style="display: none;"><?php echo $_helper->productAttribute($_product, nl2br($_product->getShortDescription()), 'short_description') ?></div>
                     </div>
                 <?php endif;?>
 

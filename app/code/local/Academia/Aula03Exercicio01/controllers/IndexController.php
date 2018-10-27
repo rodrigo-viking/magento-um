@@ -5,7 +5,7 @@ class Academia_Aula03Exercicio01_IndexController extends Mage_Core_Controller_Fr
     public function blocksAction(){
         $this->loadLayout();
         $block = $this->getLayout()->createBlock('Academia_Aula03Exercicio01/viking');
-        $block->setText("Viking");
+        $block->setText("Hellow Viking");
         $this->getLayout()->getBlock('content')->insert($block);
         $this->renderLayout();
     }

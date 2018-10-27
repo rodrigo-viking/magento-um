@@ -17,13 +17,13 @@
 
     <frontend>
         <routers>
-            <Aula03Exercicio01Academia>
+            <Aula03Exercicio01>
                 <use>standard</use>
                 <args>
                     <module>Academia_Aula03Exercicio01</module>
                     <frontName>helloviking</frontName>
                 </args>
-            </Aula03Exercicio01Academia>
+            </Aula03Exercicio01>
         </routers>
     </frontend>
 
